@@ -10,7 +10,7 @@ namespace LigaPro_TallerClase.Models
         [Required]
         [MaxLength(50)]
         [MinLength(3)]
-        public string IdEquipo { get; set; }
+        public int IdEquipo { get; set; }
         [Required]
         [MaxLength(50)]
         [MinLength(3)]
