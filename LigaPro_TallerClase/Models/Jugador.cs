@@ -19,6 +19,7 @@ namespace LigaPro_TallerClase.Models
         public int Age { get; set; }
 
         [ForeignKey(nameof(Equipo))]
+        public int IdEquipo { get; set; } 
         Equipo equipo { get; set; }
 
 
