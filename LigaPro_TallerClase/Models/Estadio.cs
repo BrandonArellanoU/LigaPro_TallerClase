@@ -15,10 +15,8 @@ namespace LigaPro_TallerClase.Models
         [MaxLength(100)]
         [MinLength(3)]
         public string City { get; set; }
-        
+        [Range(1, 100000)]
         public int Capacity { get; set; }
-
-
 
     }
 }
