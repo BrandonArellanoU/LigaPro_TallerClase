@@ -24,10 +24,11 @@ namespace LigaPro_TallerClase.Models
         [MinLength(3)]
         public string Titles { get; set; }
         [Required]
+        public Estadio? Estadio {  get; set; }
         public Boolean AceptarExtranjeros { get; set; }
         [ForeignKey(nameof(Estadio))]
         public int IdEstadio { get; set; }
-        Estadio estadio {  get; set; }
+        
 
     }
 }
